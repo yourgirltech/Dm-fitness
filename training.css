@@ -1,0 +1,510 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+body,html{
+    overflow-x: hidden;
+}
+
+
+
+.grandparent{
+    height: 100vh;
+    background: url(images/trainer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+.col{
+    padding: 0 !important;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.lolamo{
+    height: 539px;
+}
+
+.omomi h3{
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-background-clip:text;
+    line-height: 170px;
+    margin-left: 10px;
+   line-height: 5px;
+   font-size: 50px;
+}
+.omo span{
+    color: greenyellow !important ;
+}
+.omo a{
+    color:  whitesmoke !important;
+    line-height: 15px ;
+    letter-spacing: 2px;
+    font-style: oblique;
+}
+.ademi{
+    background-color: transparent !important;
+}
+
+.omo{
+    color:greenyellow !important;
+}
+
+.omo button{
+    color: whitesmoke !important;
+}
+   
+
+
+.icon i{
+    color: greenyellow;
+}
+
+
+
+/* nav end */
+.words1{
+   text-align: center;
+    display: inline-block;
+    padding-left: 300px;
+}
+
+
+
+
+
+@keyframes cursor {
+    50%{border-color: transparent;}
+}
+@keyframes typing {
+    from{width: 0;}
+}
+
+.words p{
+
+    padding-top: 100px;
+    
+}
+
+.words p{
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-background-clip:text;
+    line-height: 200px;
+   text-align: center;
+   font-size: 180px; 
+   font-style: oblique;
+   width: 100%;
+   white-space: nowrap;
+   overflow: hidden;
+   animation:
+   typing 2s steps(33),
+   cursor 4s step-end infinite alternate;
+   letter-spacing: 10px;
+}
+
+
+/* granny  */
+
+.granny{
+    background-color: black;
+    height: 100%;
+}
+
+.head{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-style: oblique;
+    border-bottom: 4px solid greenyellow;
+}
+
+.head span{
+    color: greenyellow;
+    font-size: 50px;
+}
+.personal{
+   display: flex;
+  justify-content: center;
+  gap: 50px;
+    color: #fff;
+    font-style: oblique;
+}
+
+
+
+
+.img img{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.work{
+    padding-top: 70px;
+}
+
+.h11 span{
+    color: greenyellow;
+    font-size: 60px;
+}
+
+.button button{
+background-color: greenyellow;
+color: #fff;
+border: 1px solid greenyellow;
+padding: 15px 60px;
+border-radius: 30px;
+margin-left: 70px ;
+margin-top: 20px;
+text-transform: uppercase;
+}
+
+.footer{
+    background-color: black;
+    background-position: center;
+    height: 40vh;
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #fff;
+    padding: 0px 50px;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.cc header{
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 800;
+    color: grey;
+}
+.cc p{
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: 600;
+    margin-top: 15px;
+    color: grey;
+}
+
+.foot1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.co form input{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 60px;
+    padding-left: 15px;
+}
+
+.icn{
+    width: 70px;
+    height:42px;
+    color: white;
+    background-color: #adff2f;
+    border: 1px solid greenyellow;
+    font-size: 30px;
+    display: grid;
+    place-items: center;
+}
+
+
+
+.foot2{
+    color: grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 60px;
+}
+
+
+.h5{
+    padding-bottom: 12px;
+}
+
+.foot3{
+    color: grey;
+    padding-left: 100px;
+}
+
+.contact{
+    padding-bottom: 5px;
+}
+
+.mike{
+    background-color: black;
+    height: 8vh;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+
+@media (max-width:767px){
+    .grandparent{
+        height: 70vh;
+        background: url(images/trainer.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover !important;
+        background-attachment: fixed;
+    }
+    .col{
+        padding: 0 !important;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+    }
+    
+    .lolamo{
+        height: 539px;
+    }
+    
+    .omomi h3{
+        color: transparent;
+        -webkit-text-stroke: 1px #fff;
+        -webkit-background-clip:text;
+        line-height: 100px;
+        margin-left: 10px;
+       line-height: 5px;
+       font-size: 30px;
+    }
+    .omo span{
+        color: greenyellow !important ;
+    }
+    .omo a{
+        color:  whitesmoke !important;
+        line-height: 15px ;
+        letter-spacing: 2px;
+        font-style: oblique;
+    }
+    .ademi{
+        background-color: transparent !important;
+    }
+    
+    .omo{
+        color:greenyellow !important;
+    }
+    
+    .omo button{
+        color: whitesmoke !important;
+    }
+       
+    
+    
+    .icon i{
+        color: greenyellow;
+    }
+    
+    
+    
+    /* nav end */
+    
+    
+    
+    
+    
+    @keyframes cursor {
+        50%{border-color: transparent;}
+    }
+    @keyframes typing {
+        from{width: 0;}
+    }
+    
+    .words p{
+    
+        padding-top:80px;
+        
+    }
+    
+    .words p{
+        color: transparent;
+        -webkit-text-stroke: 1px #fff;
+        -webkit-background-clip:text;
+        line-height: 100px;
+       text-align: center;
+       font-size: 50px; 
+       font-style: oblique;
+       width: 100%;
+       white-space: nowrap;
+       overflow: hidden;
+       animation:
+       typing 2s steps(33),
+       cursor 4s step-end infinite alternate;
+       letter-spacing: 10px;
+       
+    }
+    
+    
+    /* granny  */
+    
+    .granny{
+        background-color: black;
+        height: 100%;
+    }
+    
+    .head{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-style: oblique;
+        border-bottom: 4px solid greenyellow;
+        
+    }
+    
+    .head span{
+        color: greenyellow;
+        font-size: 50px;
+    }
+    .personal{
+       display: flex;
+       flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+        color: #fff;
+        font-style: oblique;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .work{
+        text-align: center;
+    }
+
+
+
+    .footer{
+        background-color: black;
+        background-position: center;
+        height: 40vh;
+        border-top: 1px solid grey;
+        display: grid;
+        grid-template-columns: 1fr  ;
+        color: #fff;
+        padding: 0px 50px;
+        align-items: center;
+        
+        border-bottom: 1px solid grey;
+    }
+    
+    .cc header{
+        font-size: 20px;
+        font-style: oblique;
+        font-weight: 800;
+        color: grey;
+    }
+    .cc p{
+        font-size: 15px;
+        font-style: oblique;
+        font-weight: 600;
+        margin-top: 15px;
+        color: grey;
+    }
+    
+    .foot1{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 30px;
+    }
+    
+    .co form input{
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-right: 50px;
+        padding-left: 15px;
+    }
+    
+    .icn{
+        width: 70px;
+        height:42px;
+        color: white;
+        background-color: #adff2f;
+        border: 1px solid greenyellow;
+        font-size: 30px;
+        display: none;
+        place-items: center;
+        margin-left: 50px;
+        margin-top: 25px;
+    }
+    
+    
+    
+    .foot2{
+        color: grey;
+        display: none;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 45px;
+    }
+    
+    
+    .h5{
+        padding-bottom: 5px;
+    }
+    
+    .foot3{
+        color: grey;
+        padding-left: 60px;
+        display: none;
+    }
+    
+    .contact{
+        padding-bottom: 5px;
+    }
+    
+    .mike{
+        background-color: black;
+        height: 8vh;
+        text-align: center;
+        padding-top: 15px;
+    }
+    
+    
+    
+    .img img{
+        width: 400px;
+        height: 500px;
+        object-fit: cover;
+    }
+    
+    .work{
+        padding-top: 70px;
+    }
+    
+    .h11 span{
+        color: greenyellow;
+        font-size: 60px;
+    }
+    
+    .ccc{
+        flex-wrap: wrap;
+    }
+    
+    .button button{
+    background-color: greenyellow;
+    color: #fff;
+    border: 1px solid greenyellow;
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin-left: 10px ;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+    }
+}

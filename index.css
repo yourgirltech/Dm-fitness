@@ -1,0 +1,788 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    overflow-x: hidden;
+}
+
+
+
+.grandparent{
+    height: 100vh;
+    background: url(images/muscular-sportsman-building-biceps-with-dumbbell.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+.col{
+    padding: 0 !important;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.lolamo{
+    height: 539px;
+}
+
+.omomi h3{
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-background-clip:text;
+    line-height: 170px;
+    margin-left: 10px;
+   line-height: 5px;
+   font-size: 50px;
+}
+.omo span{
+    color: greenyellow !important ;
+}
+.omo a{
+    color:  whitesmoke !important;
+    line-height: 15px ;
+    letter-spacing: 2px;
+    font-style: oblique;
+}
+.ademi{
+    background-color: transparent !important;
+}
+
+.omo{
+    color:greenyellow !important;
+}
+
+.omo button{
+    color: whitesmoke !important;
+}
+   
+
+
+.icon i{
+    color: greenyellow;
+}
+
+
+
+/* nav end */
+.words1{
+   text-align: center;
+    display: inline-block;
+    padding-left: 300px;
+}
+
+
+
+.text{
+   text-align: center;
+   font-style: oblique;
+   letter-spacing: 15px;
+   width: 100%;
+   white-space: nowrap;
+   overflow: hidden;
+   animation:
+   typing 2s steps(33),
+   cursor 4s step-end infinite alternate;
+   color: greenyellow;
+}
+
+@keyframes cursor {
+    50%{border-color: transparent;}
+}
+@keyframes typing {
+    from{width: 0;}
+}
+
+.words{
+
+    padding-top: 100px;
+    
+}
+
+.words p{
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-background-clip:text;
+    line-height: 200px;
+   text-align: center;
+   font-size: 200px; 
+   font-style: oblique;
+}
+
+/* section2 */
+
+.general{
+    background-color: black;
+    /* height: 100%; */
+}
+
+
+.heading{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 50px;
+    font-style: oblique;
+    
+}
+
+
+.heading span{
+    color: greenyellow;
+    font-style: oblique;
+    font-size: 85px;
+    
+}
+
+.fun{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(212, 208, 203, 0.596);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: whitesmoke;
+    font-style: oblique;
+    box-shadow: white 5px 5px   ;
+    
+}
+.fun1{
+    text-align: center;
+}
+ img{
+    width: 100%;
+ }
+.fun11{
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+.fun11 i{
+    font-size: 45px;
+    color: #adff2f;
+}
+
+
+.membership1{
+    text-align: center;
+    padding: 30px;
+    width: 350px;
+    height: 400px;
+    border: 1px solid rgba(240, 234, 227, 0.212);
+    background-color: rgba(228, 224, 224, 0.342);
+    border-radius: 5%;
+    font-style: oblique;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.membership1 small{
+    color: #adff2f;
+}
+
+.mybox{
+    
+    width: 150px;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.lola button{
+    background-color: #adff2f;
+    color: whitesmoke;
+    font-style: oblique;
+    padding: 5px 10px;
+    border: 1px solid greenyellow;
+}
+
+button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.img1{
+    height: 360px;
+    border: 1px solid greenyellow;
+    display: grid;
+    place-items: center;
+    border-radius: 5%;
+    width: 310px;
+}
+
+.img1 img{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.mmw {
+    text-align: center;
+    color: white;
+}
+
+.mmw small{
+    color: #adff2f;
+}
+
+.mp img{
+    width: 85vw;
+    height: 70vh;
+}
+
+.map{
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.mpp{
+    color: greenyellow;
+    position: absolute;
+    top: 80%;
+    bottom: 20%;
+    text-transform: uppercase;
+    left: 25%;
+    right: 0;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+
+.mppp{
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.submp1{
+    width: 400px;
+    height: 100px;
+    border: 1px solid white;
+    text-align: center;
+    background-color: white;
+    color:greenyellow;
+    padding-top: 10px;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 30px;
+    box-shadow: 5px 5px  greenyellow;
+}
+.submp2{
+    width: 450px;
+    height: 100px;
+    border: 1px solid white;
+    align-items: center;
+    box-shadow: 5px 5px  greenyellow;
+    backdrop-filter: blur(10px);
+
+}
+
+.form{
+    padding-left: 70px;
+    
+}
+
+
+.form input{
+padding: 5px 30px;
+}
+
+.button button{
+    padding: 5px 15px;
+    border: 1px solid #adff2f;
+    color: #fff;
+    background-color: #adff2f;
+}
+
+button a{
+    color: #fff;
+}
+
+.section{
+    position: relative;
+}
+
+
+
+
+ 
+.fat img{
+    filter: grayscale();
+}
+
+
+
+.footer{
+    background-color: black;
+    background-position: center;
+    height: 40vh;
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #fff;
+    padding: 0px 50px;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.cc header{
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 800;
+    color: grey;
+}
+.cc p{
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: 600;
+    margin-top: 15px;
+    color: grey;
+}
+
+.foot1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.co form input{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 60px;
+    padding-left: 15px;
+}
+
+.icn{
+    width: 70px;
+    height:42px;
+    color: white;
+    background-color: #adff2f;
+    border: 1px solid greenyellow;
+    font-size: 30px;
+    display: grid;
+    place-items: center;
+}
+
+
+
+.foot2{
+    color: grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 60px;
+}
+
+
+.h5{
+    padding-bottom: 12px;
+}
+
+.foot3{
+    color: grey;
+    padding-left: 100px;
+}
+
+.contact{
+    padding-bottom: 5px;
+}
+
+.mike{
+    background-color: black;
+    height: 8vh;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px){
+
+
+
+
+    .grandparent{
+        height: 100vh;
+        background: url(images/muscular-sportsman-building-biceps-with-dumbbell.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        background-attachment: fixed;
+    }
+    .col{
+        padding: 0 !important;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+    }
+    
+    .lolamo{
+        height: 539px;
+    }
+    
+    .omomi h3{
+        color: transparent;
+        -webkit-text-stroke: 1px #fff;
+        -webkit-background-clip:text;
+        line-height: 150px;
+        margin-left: 10px;
+       line-height: 5px;
+       font-size: 30px;
+    }
+    .omo span{
+        color: greenyellow !important ;
+    }
+    .omo a{
+        color:  whitesmoke !important;
+        line-height: 15px ;
+        letter-spacing: 2px;
+        font-style: oblique;
+    }
+    .ademi{
+        background-color: transparent !important;
+    }
+    
+    .omo{
+        color:greenyellow !important;
+    }
+    
+    .omo button{
+        color: whitesmoke !important;
+    }
+       
+    
+    
+    .icon i{
+        color: greenyellow;
+    }
+    
+    .words1{
+         display: none;
+     }
+     
+     
+     
+     .write{
+        text-align: center;
+        font-style: oblique;
+        /* letter-spacing: 5px; */
+        width: 100%;
+        white-space: wrap;
+        overflow: hidden;
+        animation:
+        typing 2s steps(33),
+        cursor 4s step-end infinite alternate;
+        color: transparent;
+        -webkit-text-stroke: 1px #fff;
+        -webkit-background-clip:text;
+        line-height: 100px;
+       text-align: center;
+       font-size:60px !important; 
+       font-style: oblique;
+    
+     }
+     
+     @keyframes cursor {
+         50%{border-color: transparent;}
+     }
+     @keyframes typing {
+         from{width: 0;}
+     }
+     
+     .words{
+     
+         padding-top: 40px;
+         
+     }
+     
+     .grandparent2{
+        background-color: black;
+        height: 100%;
+    } 
+
+
+    
+    
+    /* section  */
+
+
+    .mp img{
+        width: 100vw;
+        height: 80vh;
+    }
+    
+    .map{
+        display: grid;
+        place-items: center;
+        position: relative;
+    }
+    
+    .mpp{
+        color: greenyellow;
+        position: absolute;
+        top: 76%;
+        bottom: 20%;
+        text-transform: uppercase;
+        left: 20%;
+        right: 0;
+        font-size: 30px;
+        font-style: oblique;
+        font-weight: bolder;
+    }
+    
+    
+    .mppp{
+        display: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 48%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    
+    .submp1{
+        width: 300px;
+        height: 135px;
+        border: 1px solid white;
+        text-align: center;
+        background-color: white;
+        color:greenyellow;
+        padding-top: 5px;
+        font-style: oblique;
+        font-weight: bolder;
+        font-size: 10px;
+        
+        box-shadow: 5px 5px  greenyellow;
+    }
+    .submp2{
+        width: 300px;
+        height: 135px;
+        border: 1px solid white;
+        align-items: center;
+        box-shadow: 5px 5px  greenyellow;
+        display: none !important;
+    
+    }
+    
+    .form{
+        padding-left: 10px;
+        
+    }
+    
+    
+    .form input{
+    padding: 5px 20px;
+    }
+    
+    .button button{
+        padding: 5px ;
+        border: 1px solid #adff2f;
+        color: #fff;
+        background-color: #adff2f;
+    }
+    
+    button a{
+        color: #fff;
+    }
+    
+    .section{
+        position: relative;
+    }
+
+
+    .footer{
+        background-color: black;
+        background-position: center;
+        height: 40vh;
+        border-top: 1px solid grey;
+        display: grid;
+        grid-template-columns: 1fr ;
+        color: #fff;
+        padding: 0px 50px;
+        align-items: center;
+        border-bottom: 1px solid grey;
+    }
+    
+    .cc header{
+        font-size: 20px;
+        font-style: oblique;
+        font-weight: 800;
+        color: grey;
+    }
+    .cc p{
+        font-size: 15px;
+        font-style: oblique;
+        font-weight: 600;
+        margin-top: 15px;
+        color: grey;
+    }
+
+    .ccc{
+        flex-wrap: wrap;
+    }
+    
+    .foot1{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 20px;
+    }
+    
+    .co form input{
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-right: 50px;
+        padding-left: 15px;
+    }
+    
+    .icn{
+        width: 70px;
+        height:42px;
+        color: white;
+        background-color: #adff2f;
+        border: 1px solid greenyellow;
+        font-size: 30px;
+        display: none;
+        place-items: center;
+        margin-left: 50px;
+        margin-top: 50px;
+
+    }
+    
+    
+    
+    .foot2{
+        color: grey;
+        display: none;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 30px;
+    }
+    
+    
+    .h5{
+        padding-bottom: 12px;
+    }
+    
+    .foot3{
+        color: grey;
+        padding-left: 55px;
+        display: none;
+    }
+    
+    .contact{
+        padding-bottom: 5px;
+    }
+    
+    .mike{
+        background-color: black;
+        height: 8vh;
+        text-align: center;
+        padding-top: 15px;
+    }
+    
+    
+}
+
+
+
+
+    
+
+
+
